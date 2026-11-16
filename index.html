@@ -42,7 +42,7 @@ body{background:var(--paper);color:var(--ink)}.logo i{background:var(--orange)}.
 /* Quiet editorial surfaces with lively, purposeful interactions. */
 :root{--scroll-progress:0%}
 html{scroll-padding-top:78px}
-header.shell{position:sticky;top:0;z-index:15;background:rgba(255,253,249,.91);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+header.shell{position:sticky;top:0;z-index:15;width:100%;max-width:none;padding-inline:max(26px,calc((100vw - 1240px)/2));background:rgba(255,253,249,.91);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .nav{background:transparent}
 .navlinks a{position:relative}
 .navlinks a:after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:1px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform .28s cubic-bezier(.2,.7,.2,1)}
